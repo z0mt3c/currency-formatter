@@ -336,5 +336,6 @@ describe('parseCurrency', () => {
     assert.deepEqual(currencyFormatter.unformat('10.00 CHF', { code: 'CHF' }), 10)
     assert.deepEqual(currencyFormatter.unformat('10,00 CHF', { code: 'CHF' }), 1000)
     assert.deepEqual(currencyFormatter.unformat('10,00 CHF', { code: 'CHF', decimal: ',' }), 10)
+    assert.deepEqual(currencyFormatter.unformat('', { code: 'CHF', decimal: ',' }), NaN)
   })
 })

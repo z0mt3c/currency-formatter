@@ -98,11 +98,21 @@ function isUndefined (val) {
 }
 
 function unformat(value, options) {
+  if (typeof value === "number") return value
   var code = options.code || (options.locale && localeCurrency.getCurrency(options.locale))
   var localeFormat = localeFormats[options.locale] || defaultLocaleFormat
   var currency = assign({}, defaultCurrency, findCurrency(code), localeFormat)
   var decimal = isUndefined(options.decimal) ? currency.decimalSeparator : options.decimal
-  return accounting.unformat(value, decimal)
+
+  var regex = new RegExp("[^0-9-" + decimal + "]", ["g"]),
+  unformatted = parseFloat(
+    ("" + value)
+    .replace(/\((?=\d+)(.*)\)/, "-$1") // replace bracketed values with negatives
+    .replace(regex, '')         // strip out any cruft
+    .replace(decimal, '.')      // make sure decimal point is standard
+  );
+
+  return unformatted;
 }
 
 module.exports = {
