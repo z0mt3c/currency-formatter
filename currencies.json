@@ -256,7 +256,7 @@
     "symbol": "CHF",
     "thousandsSeparator": "'",
     "decimalSeparator": ".",
-    "symbolOnLeft": false,
+    "symbolOnLeft": true,
     "spaceBetweenAmountAndSymbol": true,
     "decimalDigits": 2
   },
@@ -344,7 +344,7 @@
   "DKK": {
     "code": "DKK",
     "symbol": "kr.",
-    "thousandsSeparator": "",
+    "thousandsSeparator": ".",
     "decimalSeparator": ",",
     "symbolOnLeft": false,
     "spaceBetweenAmountAndSymbol": true,
