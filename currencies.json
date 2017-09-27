@@ -1109,7 +1109,7 @@
   "SEK": {
     "code": "SEK",
     "symbol": "kr",
-    "thousandsSeparator": ".",
+    "thousandsSeparator": " ",
     "decimalSeparator": ",",
     "symbolOnLeft": false,
     "spaceBetweenAmountAndSymbol": true,
