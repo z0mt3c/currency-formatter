@@ -398,7 +398,7 @@
   "EUR": {
     "code": "EUR",
     "symbol": "€",
-    "thousandsSeparator": " ",
+    "thousandsSeparator": ".",
     "decimalSeparator": ",",
     "symbolOnLeft": false,
     "spaceBetweenAmountAndSymbol": true,

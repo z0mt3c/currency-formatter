@@ -6,6 +6,20 @@
     "spaceBetweenAmountAndSymbol": true,
     "decimalDigits": 2
   },
+  "de-DE": {
+    "thousandsSeparator": ".",
+    "decimalSeparator": ",",
+    "symbolOnLeft": false,
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
+  "fi-FI": {
+    "thousandsSeparator": " ",
+    "decimalSeparator": ",",
+    "symbolOnLeft": false,
+    "spaceBetweenAmountAndSymbol": true,
+    "decimalDigits": 2
+  },
   "el-GR": {
     "symbolOnLeft": true,
     "spaceBetweenAmountAndSymbol": false,
