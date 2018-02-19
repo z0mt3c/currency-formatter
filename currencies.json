@@ -188,15 +188,6 @@
     "spaceBetweenAmountAndSymbol": false,
     "decimalDigits": 2
   },
-  "BTC": {
-    "code": "BTC",
-    "symbol": "Ƀ",
-    "thousandsSeparator": ",",
-    "decimalSeparator": ".",
-    "symbolOnLeft": false,
-    "spaceBetweenAmountAndSymbol": false,
-    "decimalDigits": 2
-  },
   "BTN": {
     "code": "BTN",
     "symbol": "Nu.",
@@ -1379,6 +1370,15 @@
   "XAF": {
     "code": "XAF",
     "symbol": "F",
+    "thousandsSeparator": ",",
+    "decimalSeparator": ".",
+    "symbolOnLeft": false,
+    "spaceBetweenAmountAndSymbol": false,
+    "decimalDigits": 2
+  },
+  "XBT": {
+    "code": "XBT",
+    "symbol": "Ƀ",
     "thousandsSeparator": ",",
     "decimalSeparator": ".",
     "symbolOnLeft": false,
